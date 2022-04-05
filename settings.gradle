@@ -1,0 +1,2 @@
+rootProject.name = "Hitsukaya PWA WEB APP"
+include ':app'
