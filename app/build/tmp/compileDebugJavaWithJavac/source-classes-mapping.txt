@@ -1,0 +1,7 @@
+com/hitsukaya/hitsukayapwawebapp/MainActivity.java
+ com.hitsukaya.hitsukayapwawebapp.MainActivity
+ com.hitsukaya.hitsukayapwawebapp.MainActivity$CustomerWebViewclient
+com/hitsukaya/hitsukayapwawebapp/SplashScreen.java
+ com.hitsukaya.hitsukayapwawebapp.SplashScreen
+com/hitsukaya/hitsukayapwawebapp/BuildConfig.java
+ com.hitsukaya.hitsukayapwawebapp.BuildConfig
