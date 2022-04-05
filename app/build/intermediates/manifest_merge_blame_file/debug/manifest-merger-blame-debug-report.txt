@@ -1,0 +1,74 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.hitsukaya.hitsukayapwawebapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\Hitsukaya\AndroidStudioProjects\HitsukayaPWAWEBAPP\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\Hitsukaya\AndroidStudioProjects\HitsukayaPWAWEBAPP\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Hitsukaya\AndroidStudioProjects\HitsukayaPWAWEBAPP\app\src\main\AndroidManifest.xml:6:5-67
+11-->C:\Users\Hitsukaya\AndroidStudioProjects\HitsukayaPWAWEBAPP\app\src\main\AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\Hitsukaya\AndroidStudioProjects\HitsukayaPWAWEBAPP\app\src\main\AndroidManifest.xml:7:5-79
+12-->C:\Users\Hitsukaya\AndroidStudioProjects\HitsukayaPWAWEBAPP\app\src\main\AndroidManifest.xml:7:22-76
+13
+14    <application
+14-->C:\Users\Hitsukaya\AndroidStudioProjects\HitsukayaPWAWEBAPP\app\src\main\AndroidManifest.xml:11:5-35:19
+15        android:allowBackup="true"
+15-->C:\Users\Hitsukaya\AndroidStudioProjects\HitsukayaPWAWEBAPP\app\src\main\AndroidManifest.xml:13:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.5.0] C:\Users\Hitsukaya\.gradle\caches\transforms-2\files-2.1\e4e60fa01183f8bb008117a464bbdf63\core-1.5.0\AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:extractNativeLibs="false"
+19        android:icon="@mipmap/ic_launcher"
+19-->C:\Users\Hitsukaya\AndroidStudioProjects\HitsukayaPWAWEBAPP\app\src\main\AndroidManifest.xml:14:9-43
+20        android:label="@string/app_name"
+20-->C:\Users\Hitsukaya\AndroidStudioProjects\HitsukayaPWAWEBAPP\app\src\main\AndroidManifest.xml:15:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->C:\Users\Hitsukaya\AndroidStudioProjects\HitsukayaPWAWEBAPP\app\src\main\AndroidManifest.xml:16:9-54
+22        android:supportsRtl="true"
+22-->C:\Users\Hitsukaya\AndroidStudioProjects\HitsukayaPWAWEBAPP\app\src\main\AndroidManifest.xml:17:9-35
+23        android:testOnly="true"
+24        android:theme="@style/Theme.HitsukayaPWAWEBAPP"
+24-->C:\Users\Hitsukaya\AndroidStudioProjects\HitsukayaPWAWEBAPP\app\src\main\AndroidManifest.xml:18:9-56
+25        android:usesCleartextTraffic="true" >
+25-->C:\Users\Hitsukaya\AndroidStudioProjects\HitsukayaPWAWEBAPP\app\src\main\AndroidManifest.xml:12:9-44
+26        <activity
+26-->C:\Users\Hitsukaya\AndroidStudioProjects\HitsukayaPWAWEBAPP\app\src\main\AndroidManifest.xml:20:9-27:20
+27            android:name="com.hitsukaya.hitsukayapwawebapp.SplashScreen"
+27-->C:\Users\Hitsukaya\AndroidStudioProjects\HitsukayaPWAWEBAPP\app\src\main\AndroidManifest.xml:20:19-47
+28            android:theme="@style/SplashTheme" >
+28-->C:\Users\Hitsukaya\AndroidStudioProjects\HitsukayaPWAWEBAPP\app\src\main\AndroidManifest.xml:21:13-47
+29            <intent-filter>
+29-->C:\Users\Hitsukaya\AndroidStudioProjects\HitsukayaPWAWEBAPP\app\src\main\AndroidManifest.xml:22:13-26:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->C:\Users\Hitsukaya\AndroidStudioProjects\HitsukayaPWAWEBAPP\app\src\main\AndroidManifest.xml:23:17-69
+30-->C:\Users\Hitsukaya\AndroidStudioProjects\HitsukayaPWAWEBAPP\app\src\main\AndroidManifest.xml:23:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->C:\Users\Hitsukaya\AndroidStudioProjects\HitsukayaPWAWEBAPP\app\src\main\AndroidManifest.xml:25:17-77
+32-->C:\Users\Hitsukaya\AndroidStudioProjects\HitsukayaPWAWEBAPP\app\src\main\AndroidManifest.xml:25:27-74
+33            </intent-filter>
+34        </activity>
+35        <activity android:name="com.hitsukaya.hitsukayapwawebapp.MainActivity" >
+35-->C:\Users\Hitsukaya\AndroidStudioProjects\HitsukayaPWAWEBAPP\app\src\main\AndroidManifest.xml:28:9-34:20
+35-->C:\Users\Hitsukaya\AndroidStudioProjects\HitsukayaPWAWEBAPP\app\src\main\AndroidManifest.xml:28:19-47
+36            <intent-filter>
+36-->C:\Users\Hitsukaya\AndroidStudioProjects\HitsukayaPWAWEBAPP\app\src\main\AndroidManifest.xml:29:13-33:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->C:\Users\Hitsukaya\AndroidStudioProjects\HitsukayaPWAWEBAPP\app\src\main\AndroidManifest.xml:23:17-69
+37-->C:\Users\Hitsukaya\AndroidStudioProjects\HitsukayaPWAWEBAPP\app\src\main\AndroidManifest.xml:23:25-66
+38
+39                <category android:name="android.intent.category.DEFAULT" />
+39-->C:\Users\Hitsukaya\AndroidStudioProjects\HitsukayaPWAWEBAPP\app\src\main\AndroidManifest.xml:32:17-76
+39-->C:\Users\Hitsukaya\AndroidStudioProjects\HitsukayaPWAWEBAPP\app\src\main\AndroidManifest.xml:32:27-73
+40            </intent-filter>
+41        </activity>
+42    </application>
+43
+44</manifest>
