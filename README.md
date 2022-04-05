@@ -6,7 +6,7 @@
 ###### Tiktok:@Hitsukaya
 ###### More Updates & upgrades
 
-Git commands & composer are:
+Git commands are:
 ```
 ###### GitHub CLI
 - gh repo clone Hitsukaya/Hitsukaya-PWA-Android-APP
